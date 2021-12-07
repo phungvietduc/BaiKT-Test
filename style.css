@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  background: url(./img/yellow-green-stars-seamless-pattern-cute-vector-repeating-ornament-dark-green-background-ideal-fabrics-textile-wrapping-213350681.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.box {
+  width: 900px;
+  height: 600px;
+  background: #fff;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  padding: 50px 30px;
+}
+
+.banner {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.banner h1,
+h2 {
+  text-align: center;
+  color: rgb(0, 0, 0);
+  padding: 2px;
+}
+.banner h2 {
+  color: rgb(51, 137, 172);
+}
+
+.navbar {
+  width: 100%;
+  margin: auto;
+  padding: 5px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 20px;
+  background-color: rgb(187, 221, 92);
+}
+
+.navbar ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 15px;
+  position: relative;
+}
+
+.navbar ul li a {
+  font-size: 15x;
+  text-decoration: none;
+  color: black;
+  text-transform: capitalize;
+}
+
+.navbar ul li a:hover {
+  color: pink;
+}
+
+.banner .content {
+  display: flex;
+  flex-direction: row;
+  padding: 20px 0px;
+}
+
+.banner .input h2,
+.banner .result h2{
+    text-align: left;
+}
+
+.banner .content .input {
+  width: 50%;
+  text-align: left;
+}
+.banner .content .result {
+  width: 50%;
+  text-align: left;
+}
