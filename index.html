@@ -12,46 +12,53 @@
 <body>
     <div class="box">
         <div class="banner">
-            <h1>Aliens</h1>
+            <h1><a href="default.html">Aliens</a></h1>
             <h2>Are you an alien</h2>
             <div class="navbar">
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Other</a></li>
-                    <li><a href="#">Other</a></li>
-                    <li><a href="#">Other</a></li>
-                    <li><a href="#">Other</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html">Other</a></li>
+                    <li><a href="index.html">Other</a></li>
+                    <li><a href="index.html">Other</a></li>
+                    <li><a href="index.html">Other</a></li>
                 </ul>
             </div>
             <div class="content">
-                <div class="input">
+                <div class="input" >
                     <h2>Answer the following questtions to determine if someone is an:</h2>
-                    <h3>Do you talk to Animals:</h3>
-                    <select name="answer" id="answer" class="question1">
-                        <option value="a">only when they are delevering profound messenges</option>
-                        <option value="b">only to do tricks</option>
-                        <option value="c">of course, who doesn't</option>
+                    <h3 style="margin: 10px 0px;">Do you talk to Animals:</h3>
+                    <select id="mySelect1" class="">
+                        <option value="1">only to do tricks</option>
+                        <option value="2">of course, who doesn’t</option>
+                        <option value="3">only to deliver profound messages</option>
                     </select>
-                    <h3>Do you eat?</h3>
-                    <select name="answer" id="answer" class="question2">
-                        <option value="a">no, why would i do that?</option>
-                        <option value="b">Saab</option>
-                        <option value="c">Mercedes</option>
+                    <div class="select2">
+                    <h3 >Do you eat?</h3>
+                    <select id="mySelect2" style="margin-left: 15px">
+                        <option value="1">Cow</option>
+                        <option value="2">Human</option>
+                        <option value="3">Rice</option>
                     </select>
-                    <h3>How do you feel about the movie wall-e</h3>
-                    <select name="answer" id="answer" class="question3">
-                        <option value="a">he's my brother</option>
-                        <option value="b">audi</option>
-                        <option value="c">lambor</option>
-                    </select>
+                    </div>
+                    <h3 style="margin: 10px 0px;">How do you feel about the movie wall-e</h3>
+                    <select id="mySelect3">
+                        <option value="1">I love wall-e</option>
+                        <option value="2">I don't like wall-e</option>
+                        <option value="3">What's it??</option>
+                    </select><br>
+                    <button onclick="myFunction()" style="margin-top: 10px;">Determine</button>
                 </div>
                 <div class="result">
                     <h2>Result</h2>
+                    <h2 id="demo"></h2>
+                    <p id="vanban"></p>
+                    <img src="" id="imgClickAndChange"/>
                 </div>
             </div>
-            <button>Determine</button>
+            
         </div>
-<script src="myjs.js"></script>
+        <script src="myjs.js"></script>
 </body>
+
 
 </html>
